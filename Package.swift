@@ -20,7 +20,7 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.19.0-beta1"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -38,13 +38,13 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATDIOSDK",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/DIOSDK.zip",
-            checksum: "ab428b761507ba87b000434cb8aa8a63315cf47690308f25e49f692dc275ba43"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/DIOSDK.zip",
+            checksum: "01ae72fe99442e7a5f1f3be3471672ad2bdcc80274cf28565c7c50394d7bb1d1"
         ),
         .binaryTarget(
             name: "AATDisplayIOAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATDisplayIOAdapter.zip",
-            checksum: "048830d595ddc49ebfc8a1b693c4c044c31343938d295c5bc6d658d80e8ca574"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/AATDisplayIOAdapter.zip",
+            checksum: "a7907bd576669b538aacf57c7c574626436d8d83a4748d066fc28285dca5ae47"
         ),
     ]
 )
